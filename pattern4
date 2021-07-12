@@ -1,0 +1,24 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c,d,e,i,j;
+    cin>>a;
+    i=0;b=1;
+    for(i=0;i<a;i++){
+        
+        for(j=0;j<=i;j++){
+            
+            cout<<b;
+            b++;
+            cout<<" ";
+        }
+        cout<<"\n";
+    }
+    
+
+    return 0;
+}
